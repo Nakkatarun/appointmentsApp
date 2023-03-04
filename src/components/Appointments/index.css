@@ -1,0 +1,132 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  background-size: cover;
+  height: 100vh;
+}
+.appointment-card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 80vw;
+  padding: 30px;
+  padding-top: 50px;
+  border-radius: 10px;
+}
+.add-appointment {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #b5b7c4;
+  justify-content: none;
+}
+@media screen and (min-width: 768px) {
+  .add-appointment {
+    justify-content: space-between;
+  }
+}
+.appointment-details {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+.heading {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+.form-element {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  color: #b5b7c4;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  padding-bottom: 5px;
+}
+.input-element {
+  color: #171f46;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .input-element {
+    width: 30vw;
+  }
+}
+.button {
+  background-color: #8b5cf6;
+  border: none;
+  font-size: 18px;
+  padding: 10px;
+  color: #ffffff;
+  font-weight: 800;
+  font-family: 'Roboto';
+  width: 80px;
+  border-radius: 10px;
+}
+.appointment-img {
+  height: 0px;
+  width: 0px;
+  padding-left: 50px;
+  margin-left: 2px;
+}
+@media screen and (min-width: 768px) {
+  .appointment-img {
+    height: 320px;
+    width: 320px;
+  }
+}
+.appointments-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.appointment-name-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.starred-button {
+  background-color: transparent;
+  border: 2px solid #9897f0;
+  color: #9897f0;
+  font-family: 'roboto';
+  font-size: 15px;
+  width: 80px;
+  height: 25px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.heading-2 {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .cards-container {
+    flex-direction: row;
+  }
+}

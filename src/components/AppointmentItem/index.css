@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.list-card {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 110px;
+  width: 300px;
+  border: 1px solid #171f46;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+  margin-left: 0px;
+}
+.title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.title {
+  color: #171f46;
+  font-size: 19px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+.star-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.star {
+  height: 24px;
+  width: 24px;
+}
+.date {
+  color: #b5b7c4;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Roboto';
+}
